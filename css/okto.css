@@ -1,0 +1,63 @@
+a:link, a:active, a:visited{
+    color:seagreen;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+p, ul{
+    font-size:2em;
+}
+p{
+    margin:0
+}
+ul{
+    margin-bottom: 1em
+}
+legend {
+    color:seagreen;
+    font-size:2em!important;
+    font-weight: normal;
+}
+fieldset{
+    border-color: #C6D880;
+}
+.ta-center{
+    text-align:center
+}
+.ta-left{
+    text-align:left
+}
+.ta-right{
+    text-align:right
+}
+.container{
+    padding-top:10px
+}
+.container h1 span{
+    color:seagreen;
+}
+#acid-oktopus-img-div{
+    padding-right:10px
+}
+#info-pass-syms{
+    font-weight:bold
+}
+#pass-target-input{
+    text-align:center;
+    width:500px
+}
+#btn-generate{
+    font-size: x-large;
+    padding: 10px;
+}
+.bottom{
+    color:#C6D880;
+    margin:15px 0
+}
+.smaller{
+    font-size: 0.8em;
+}
+#passlen-field{
+    width: 40px;
+}

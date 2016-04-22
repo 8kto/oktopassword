@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>OktoPass</title>
+        <link id="favicon" rel="shortcut icon" href="password.png" type="image/x-icon"/>
+
+        <!-- Framework CSS -->
+        <link rel="stylesheet" href="./css/blueprint/screen.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="./css/blueprint/print.css" type="text/css" media="print">
+        <link rel="stylesheet" href="./css/blueprint/plugins/buttons/screen.css" type="text/css" media="print">
+        <!--[if lt IE 8]><link rel="stylesheet" href="./css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./css/okto.css" type="text/css" media="screen, projection">
+
+        <!-- JS libs -->
+        <script type="text/javascript" src="js/SymStorage.js"></script>
+        <script type="text/javascript" src="js/OktoPass.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="span-1" id="acid-oktopus-img-div">
+            	<img src="./ao-with-tool-roll.gif" alt="acid oktopus!"></div>
+            <h1>OktoPass <span>// Паролегенератор</span></h1>
+            <hr/>
+            <div class="span-24 last">
+                <form action="" id="oktopassword-form" method="post">
+                    <div class="ta-center smaller">
+                        <p class="success">
+                            <input type="text" class="title" name="pass-target-input" id="pass-target-input" value="">
+                        </p>
+                        <p>
+                            <button class="button positive" id="btn-generate">
+                                 Генерировать
+                            </button>
+                        </p>
+                        <p style="margin: 12px 0 0;">Количество вариантов: <span id="info-variants-amount"></span></p>
+                    </div>
+                    <fieldset class="smaller">
+                        <legend>Настройки</legend>
+
+                        <ul>
+                            <li>
+                                Шаблон для генерации:
+                                <select id="pass-template"></select>
+                            </li>
+                            <li>
+                                Длина пароля:
+                                <select id="passlen-field"></select>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="ta-center bottom smaller">
+                <p>
+                    <a href="https://github.com/8kto/oktopassword">Описание и код на GitHub</a><br>
+                    <a href="http://axisful.info">&copy; Okto</a> (2010-2013)
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/Wrapper.js"></script>
+    </body>
+</html>
